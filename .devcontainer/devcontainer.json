@@ -10,6 +10,5 @@
           "enableNonRootDocker": "true",
           "moby": "true"
       }
-  },
-  "postCreateCommand": "./init.sh"
+  }
 }
