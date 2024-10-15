@@ -5,16 +5,18 @@
     <RootNamespace>eShop.Catalog</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <NoWarn>GD0001</NoWarn>
+    <NoWarn>GD0001;GD0002</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
     <Using Include="eShop.Catalog" />
     <Using Include="eShop.Catalog.Data" />
     <Using Include="eShop.Catalog.Models" />
+    <Using Include="eShop.Catalog.Services" />
     <Using Include="eShop.Catalog.Types" />
     <Using Include="eShop.Catalog.Migrations" />
     <Using Include="Microsoft.EntityFrameworkCore" />
+    <Using Include="HotChocolate.Pagination" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,3 @@
+namespace eShop.Catalog.Services;
+
+   
