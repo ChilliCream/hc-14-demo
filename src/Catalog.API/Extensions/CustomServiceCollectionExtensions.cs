@@ -1,6 +1,3 @@
-using eShop.Catalog.Sessions;
-using ISession = eShop.Catalog.Sessions.ISession;
-
 namespace Microsoft.Extensions.DependencyInjection;
 
 public static class CustomServiceCollectionExtensions

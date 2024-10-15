@@ -53,9 +53,6 @@ public sealed class CatalogContextSeed(
                     ImageFileName = $"images/{source.Id}.webp",
                 }));
 
-            await context.Users.AddAsync(new User { Name = "Sam" });
-            await context.Users.AddAsync(new User { Name = "Support" });
-            
             logger.LogInformation("Seeded catalog with {NumItems} items", context.Products.Count());
             await context.SaveChangesAsync();
         }
